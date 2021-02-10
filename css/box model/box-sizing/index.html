@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        div{
+            font-family: cursive;
+        }
+        #box1{
+            width: 300px;
+            height: 100px;
+            background-color: tomato;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 10px solid black;
+            box-sizing: content-box;
+        }
+        #box2{
+            width: 300px;
+            height: 100px;
+            background-color:thistle;
+            padding: 10px;
+            border: 10px solid black;
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">
+        300px + (10px^2) + (10px^2) = 340px
+
+    </div>
+    <div id="box2">
+        260px + (10px^2) + (10px^2) = 300px
+    </div>
+</body>
+</html>

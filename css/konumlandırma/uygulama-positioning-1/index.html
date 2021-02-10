@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+
+        .box{
+            width: 120px;
+            height: 120px;
+        }
+        .mbox{
+            position: absolute;
+            top: 70px;
+            left: 30px;
+        }
+        #first{
+            background: coral;
+            width: 100%;
+
+            position:sticky;
+            top: 20px;
+        }
+        #second{
+            background:cornflowerblue;
+            position: relative;
+        }
+        #third{
+            background: crimson;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error commodi dignissimos aliquid beatae necessitatibus ratione quaerat natus quos quis provident, obcaecati asperiores illum ut repudiandae ipsa doloribus. Ratione, suscipit velit?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In facilis deserunt nulla. Totam distinctio quo possimus recusandae sint voluptatibus consequatur culpa, temporibus iste fugiat hic ducimus laudantium quam odit iusto!</p>
+    <div class="box" id="first">box 1</div>
+    <div class="box" id="second">
+        <div class="mbox" style="width: 20px; height: 20px; background-color: yellow;"></div>
+    </div>
+    <div class="box" id="third">box 3</div>
+    
+    <div style="height: 2000px;"></div>
+
+</body>
+</html>

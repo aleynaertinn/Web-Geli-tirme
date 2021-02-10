@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+#gallery{
+    width: 1000px;
+    margin: 20px auto;
+}
+.item-container{
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+.gallery-item{
+    
+    border: 1px solid #cccccc;
+    
+}
+.gallery-item:hover{
+    
+    border: 1px solid #777777;
+    
+}
+.gallery-item img{
+    width: 100%;
+    width: 200px;
+    object-position: 30% 50%;
+    object-fit: cover;
+}
+.description{
+    text-align: center;
+    padding: 15px;
+}

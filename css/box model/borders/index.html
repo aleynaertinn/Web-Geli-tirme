@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>borders</title>
+    <style>
+
+        .box{
+            width: 120px;
+            height: 120px;
+            background-color: violet;
+            margin: 10px;
+            padding: 10px;
+            
+        }
+        #first{
+            border-top-width: 2px;
+            border-left-width: 7px;
+            border-right-width: 5px;
+            border-bottom-width: 8px;
+
+            border-top-style: solid;
+            border-left-style:dotted;
+            border-right-style:double;
+            border-bottom-style: groove;
+
+            border-top-color: tomato;
+            border-left-color:thistle;
+            border-right-color: teal;
+            border-bottom-color: wheat;
+        }
+        #second{
+            border-top: 5px dotted pink;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 40px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 10px;
+        }
+        #third{
+            border: 8px solid tomato;
+            border-radius: 50%;
+
+        }
+        #msgbox{
+            background-color: gray;
+            border-left: 6px solid green;
+            padding: 40px;
+            color: wheat;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box" id="first">box 1</div>
+    <div class="box" id="second">box 2</div>
+    <div class="box" id="third">box 3</div>
+
+    <div id="msgbox"> mesaj box</div>
+</body>
+</html>
